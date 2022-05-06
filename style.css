@@ -1,0 +1,31 @@
+body {
+  background-color: #0E103D;
+  color: #DAE0F2;
+}
+
+.image{
+  border-radius: 100px;
+}
+
+.button{
+  background-color: #540804;
+
+}
+
+a {
+  max-width: 270px;
+  min-width: 120px;
+  padding: 7px 10px;
+  border-radius: 5px;
+  background-color: #3564a1;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+  color: #c5cce0;
+}
+
+li {
+  line-height: 25px;
+}
