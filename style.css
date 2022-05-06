@@ -29,3 +29,14 @@ a {
 li {
   line-height: 25px;
 }
+
+ul {
+  list-style-type: circle;
+
+}
+
+.tstestiloUL {
+  
+  text-align: center;
+  width: 100px;
+}
