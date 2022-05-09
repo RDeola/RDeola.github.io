@@ -83,8 +83,8 @@ ul {
 
 .descricao {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Courier, monospace;
-  position: absolute;
-  left: 250px;
+  position: float;
+  left: 40%;
   top: 20%;
 }
 
