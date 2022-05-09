@@ -1,10 +1,19 @@
 body {
   background-color: #0E103D;
   color: #DAE0F2;
+  padding: 3%;
 }
 
 .image{
-  border-radius: 100px;
+  border-radius: 20px;
+  float: left;
+  margin: 10px;
+  padding: 5px;
+  background-color: rgb(44, 44, 99); 
+}
+
+.image-container {
+  height: 250px;
 }
 
 .button{
@@ -60,10 +69,19 @@ ul {
   font-size: 15px;
 }
 
+.tstestiloUL li:nth-child(odd) {
+  background-color: #540804;
+}
+
 .meu-nome {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
 }
 
 .descricao {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Courier, monospace;
+  position: absolute;
+  left: 250px;
+  top: 20%;
 }
+
