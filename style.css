@@ -34,6 +34,9 @@ a {
   text-decoration: none;
   color: #c5cce0;
 }
+a:hover {
+  background-color: #5c7aa1;
+}
 
 li {
   line-height: 25px;
