@@ -116,11 +116,7 @@ header a:hover {
 .table {
   display: block;
   width: 520px;
-<<<<<<< HEAD
   height: 480px;
-=======
-  height: 400px;
->>>>>>> 4d0b2d928f8e2cf4715a4d40c73ca045eeaa54b2
   margin-top: 310px;
   position: relative;
   z-index: 2;
@@ -165,13 +161,9 @@ header a:hover {
   background-color: rgb(172, 170, 170);
   position: absolute;
   top: 10;
-  height: 100px;
-<<<<<<< HEAD
+  height: 50px;
   width: 320px;
-=======
-  width: 290px;
->>>>>>> 4d0b2d928f8e2cf4715a4d40c73ca045eeaa54b2
-  margin-top: 700px;
+  margin-top: 750px;
   z-index: 0;
 }
 
