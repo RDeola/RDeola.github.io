@@ -1,0 +1,253 @@
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+body:nth-child(n) {
+  font-size: 15px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  background-color: green;
+  height: 127px;
+  width: 100%;
+  color: white;
+  z-index: 2;
+}
+
+#navegador {
+  border: 1px solid white;
+  height: 45px;
+}
+
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(58, 57, 57);
+}
+
+header li {
+  float: left;
+}
+
+header a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+header a:hover {
+  background-color: rgb(17, 17, 17);
+}
+
+#minha_foto {
+  width: 200px;
+  margin-top: 150px;
+  margin-left: 15px;
+}
+
+#foto {
+  display: inline-block;
+}
+
+#lista-ordenada , #lista-nao-ordenada {
+  display: inline-block;
+  margin-left: 3%;
+  width: 35%;
+  vertical-align: top;
+}
+
+#foto-listas {
+  width: 1000px;
+  height: 390px;
+  margin-top: 150px;
+  position: relative;
+  z-index: 1;
+}
+
+#artigos {
+  width: 1000px;
+  margin-top: 30px;
+  display: block;
+  position: relative;
+  z-index: 1;
+}
+
+.lado-esquerdo {
+  display: inline-block;
+  width: 55%;
+  border-right: 7px double black;
+  text-align: justify;
+  padding: 20px;
+  font-family: Tahoma, Geneva, Verdana, sans-serif, BlinkMacSystemFont;
+  line-height: normal;
+  float: left;
+}
+
+.lado-direito {
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+  text-align: right;
+  padding: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, serif, Arial, sans-serif;
+  font-size: medium;
+  float: right;
+}
+
+#rodape {
+  background-color: green;
+  height: 50px;
+  color: white;
+}
+
+#paragrafo-rodape {
+  padding: 15px;
+}
+
+#link {
+  color: white;
+  text-decoration: none;
+}
+
+.table {
+  display: block;
+  width: 500px;
+  height: 400px;
+  margin-top: 310px;
+  position: relative;
+  z-index: 2;
+}
+
+.border {
+  border: 1px solid black;
+}
+
+.round {
+  border-radius: 20px;
+}
+
+.pipegreen {
+  background-color: green;
+  position: absolute;
+  top: 0;
+  height: 830px;
+  width: 370px;
+  left: 630px;
+  z-index: 0;
+}
+
+.pipegray {
+  background-color: rgb(109, 108, 108);
+  position: absolute;
+  top: 0;
+  height: 420px;
+  width: 120px;
+}
+
+.blockgray {
+  background-color: rgb(109, 108, 108);
+  position: absolute;
+  top: 10;
+  height: 120px;
+  width: 580px;
+  margin-top: 150px;
+}
+
+.tablepipe {
+  background-color: rgb(109, 108, 108);
+  position: absolute;
+  top: 10;
+  height: 100px;
+  width: 270px;
+  margin-top: 700px;
+  z-index: 0;
+}
+
+.table-block1 {
+  background-color: rgb(109, 108, 108);
+  position: absolute;
+  top: 10;
+  height: 100px;
+  width: 220px;
+  margin-top: 750px;
+  z-index: 0;
+}
+
+.table-block2 {
+  background-color: rgb(109, 108, 108);
+  position: absolute;
+  top: 10;
+  height: 40px;
+  width: 220px;
+  margin-top: 895px;
+  z-index: 0;
+}
+
+.table-block3 {
+  background-color: rgb(109, 108, 108);
+  position: absolute;
+  top: 10;
+  height: 50px;
+  width: 220px;
+  margin-top: 960px;
+  z-index: 0;
+}
+
+.table-block4 {
+  background-color: rgb(109, 108, 108);
+  position: absolute;
+  top: 10;
+  height: 110px;
+  width: 520px;
+  left: 300px;
+  margin-top: 895px;
+  z-index: 0;
+}
+
+.table-block5 {
+  background-color: green;
+  position: absolute;
+  top: 10;
+  height: 300px;
+  width: 285px;
+  left: 230px;
+  margin-top: 803px;
+  z-index: 1;
+}
+
+.png-block {
+  background-color: rgb(109, 108, 108);
+  position: absolute;
+  top: 10;
+  height: 330px;
+  width: 320px;
+  left: 650px;
+  margin-top: 755px;
+  z-index: 0;
+}
+
+.png {
+  position: absolute;
+  margin-left: 560px;
+}
+
+.png-image {
+  width: 500px;
+}
+
+.font-white {
+  color: black;
+  font-weight: 600;
+  /*text-shadow: #000 0px 0px 6px;*/
+  /*-webkit-text-fill-color: black; /* Will override color (regardless of order) */
+  /*-webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;*/
+}
