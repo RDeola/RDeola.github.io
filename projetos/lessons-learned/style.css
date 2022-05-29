@@ -2,10 +2,6 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
-body:nth-child(n) {
-  font-size: 15px;
-}
-
 header {
   position: fixed;
   top: 0;
@@ -47,8 +43,10 @@ header a:hover {
 
 #minha_foto {
   width: 200px;
-  margin-top: 150px;
+  margin-top: 50px;
   margin-left: 15px;
+  border: 1px solid black;
+  box-shadow: 10px 10px 10px gray;
 }
 
 #foto {
@@ -64,7 +62,7 @@ header a:hover {
 
 #foto-listas {
   width: 1000px;
-  height: 390px;
+  height: 420px;
   margin-top: 150px;
   position: relative;
   z-index: 1;
@@ -117,8 +115,8 @@ header a:hover {
 
 .table {
   display: block;
-  width: 500px;
-  height: 400px;
+  width: 520px;
+  height: 480px;
   margin-top: 310px;
   position: relative;
   z-index: 2;
@@ -136,14 +134,14 @@ header a:hover {
   background-color: green;
   position: absolute;
   top: 0;
-  height: 830px;
+  height: 850px;
   width: 370px;
   left: 630px;
   z-index: 0;
 }
 
 .pipegray {
-  background-color: rgb(109, 108, 108);
+  background-color: rgb(172, 170, 170);
   position: absolute;
   top: 0;
   height: 420px;
@@ -151,56 +149,56 @@ header a:hover {
 }
 
 .blockgray {
-  background-color: rgb(109, 108, 108);
+  background-color: rgb(172, 170, 170);
   position: absolute;
   top: 10;
   height: 120px;
-  width: 580px;
+  width: 600px;
   margin-top: 150px;
 }
 
 .tablepipe {
-  background-color: rgb(109, 108, 108);
+  background-color: rgb(172, 170, 170);
   position: absolute;
   top: 10;
-  height: 100px;
-  width: 270px;
-  margin-top: 700px;
-  z-index: 0;
-}
-
-.table-block1 {
-  background-color: rgb(109, 108, 108);
-  position: absolute;
-  top: 10;
-  height: 100px;
-  width: 220px;
+  height: 80px;
+  width: 320px;
   margin-top: 750px;
   z-index: 0;
 }
 
+.table-block1 {
+  background-color: rgb(172, 170, 170);
+  position: absolute;
+  top: 10;
+  height: 100px;
+  width: 220px;
+  margin-top: 780px;
+  z-index: 0;
+}
+
 .table-block2 {
-  background-color: rgb(109, 108, 108);
+  background-color: rgb(172, 170, 170);
   position: absolute;
   top: 10;
   height: 40px;
   width: 220px;
-  margin-top: 895px;
+  margin-top: 935px;
   z-index: 0;
 }
 
 .table-block3 {
-  background-color: rgb(109, 108, 108);
+  background-color: rgb(172, 170, 170);
   position: absolute;
   top: 10;
   height: 50px;
   width: 220px;
-  margin-top: 960px;
+  margin-top: 1020px;
   z-index: 0;
 }
 
 .table-block4 {
-  background-color: rgb(109, 108, 108);
+  background-color: rgb(172, 170, 170);
   position: absolute;
   top: 10;
   height: 110px;
@@ -214,21 +212,21 @@ header a:hover {
   background-color: green;
   position: absolute;
   top: 10;
-  height: 300px;
-  width: 285px;
+  height: 390px;
+  width: 305px;
   left: 230px;
-  margin-top: 803px;
+  margin-top: 825px;
   z-index: 1;
 }
 
 .png-block {
-  background-color: rgb(109, 108, 108);
+  background-color: rgb(172, 170, 170);
   position: absolute;
   top: 10;
   height: 330px;
   width: 320px;
   left: 650px;
-  margin-top: 755px;
+  margin-top: 775px;
   z-index: 0;
 }
 
@@ -244,10 +242,5 @@ header a:hover {
 .font-white {
   color: black;
   font-weight: 600;
-  /*text-shadow: #000 0px 0px 6px;*/
-  /*-webkit-text-fill-color: black; /* Will override color (regardless of order) */
-  /*-webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: white;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;*/
 }
+
