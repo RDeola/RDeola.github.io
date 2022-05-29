@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1 id="title">Paleta de Cores</h1>
+    </header>
+    <section clas="container">
+      <section id="color-palette" class="border2"></section>
+    </section>
+    <section id="interact" class="border2">
+      <button id="clear-board" type="button">Limpar</button>
+      <label for="input-size">Defina o tamanho do grid:</label>
+      <input type="number" id="board-size" name="board" min="1" max="50" />
+      <button id="generate-board" type="submit">VQV</button>
+    </section>
+    <section id="pixel-board"></section>
+    <script src="script.js"></script>
+  </body>
+</html>

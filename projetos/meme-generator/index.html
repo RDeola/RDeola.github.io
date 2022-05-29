@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MemeGenerator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Meme Generator</h1>
+    </header>
+    <section>
+      <input
+        type="text"
+        name="text-input"
+        id="text-input"
+        maxlength="60"
+        placeholder="Text"
+      />
+    </section>
+    <section>
+      <input
+        type="file"
+        name="meme-insert"
+        accept="image/png, image/jpeg"
+        id="meme-insert"
+      />
+    </section>
+    <section class="main">
+      <section id="meme-image-container" class="border1">
+        <img src="" alt="Meme" id="meme-image" />
+        <span id="meme-text">texto</span>
+      </section>
+    </section>
+    <section id="btn-container">
+      <button id="fire" class="3px dashed red">Fire</button>
+      <button id="water" class="5px double blue">Water</button>
+      <button id="earth" class="6px groove green">Earth</button>
+    </section>
+    <section id="meme-preview">
+      <img class="preview" src="imgs/meme1.png" alt="Shrek" id="meme-1" />
+      <img class="preview" src="imgs/meme2.png" alt="toy story" id="meme-2" />
+      <img class="preview" src="imgs/meme3.png" alt="baby fist" id="meme-3" />
+      <img class="preview" src="imgs/meme4.png" alt="on fire" id="meme-4" />
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>

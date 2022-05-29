@@ -1,0 +1,15 @@
+.item {
+  cursor: pointer;
+}
+
+.completed {
+  text-decoration: line-through solid black;
+}
+
+.selected {
+  background: gray;
+}
+
+.controls {
+  margin: 5px;
+}

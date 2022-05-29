@@ -1,0 +1,17 @@
+.ball {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 100%;
+  margin: 5px;
+  display: inline-block;
+}
+
+.points {
+  display: inline;
+}
+
+#points {
+  width: 300px;
+  border: 1px solid black;
+}
